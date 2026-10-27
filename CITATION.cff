@@ -3,7 +3,7 @@ message: "If you use this software, please cite the paper and this repository."
 title: "smectic-transport: model code for 'Geometry-controlled active transport in smectic textures'"
 version: 1.0.0
 license: MIT
-repository-code: "https://github.com/yhonyar/smectic-active-matter"
+repository-code: "https://github.com/yhonyar/transport-smectic"
 authors:
   - family-names: Arce
     given-names: Yhony M.
