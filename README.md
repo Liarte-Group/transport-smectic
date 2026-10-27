@@ -27,7 +27,7 @@ trajectories. No figures are produced.
 The project uses [uv](https://docs.astral.sh/uv/).
 
 ```bash
-git clone https://github.com/yhonyar/smectic-active-matter.git
+git clone https://github.com/yhonyar/transport-smectic.git
 cd smectic-active-matter
 uv sync                    # CPU
 uv sync --extra gpu        # NVIDIA GPU (CUDA 12, compute capability ≥ 6.0)
