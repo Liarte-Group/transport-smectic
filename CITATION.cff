@@ -5,6 +5,6 @@ version: 1.0.0
 license: MIT
 repository-code: "https://github.com/yhonyar/transport-smectic"
 authors:
-  - family-names: Arce
-    given-names: Yhony M.
+  - family-names: M. Arce
+    given-names: Yhony
     affiliation: "IFT-UNESP, Brazil"
