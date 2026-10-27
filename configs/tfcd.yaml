@@ -1,0 +1,15 @@
+# Array of toroidal focal conic domains: cores on a triangular lattice of spacing 2 x0.
+# Swimmers start at the origin, which is a defect core.
+name: tfcd
+texture: {type: tfcd, x0: 1.0}
+dynamics: {peclet: 0.1, epsilon: 40.0, rotational_diffusion: 1.0}
+time:
+  dt: 1.0e-3
+  t_max: 1.0e+6
+  t_relax: 100.0
+particles: {n: 5000, seed: 20260104, initial_position: [0.0, 0.0], initial_orientation: uniform}
+output: {n_points: 2000, traj_particles: 1, traj_frames: 10000, traj_stride: 1, directory: "data/{texture}"}
+run: {engine: auto}
+sweep:
+  dynamics.peclet: [0.01, 0.0316, 0.1, 0.316, 1.0, 3.16, 10.0]
+  dynamics.epsilon: [0.0, 10.0, 20.0, 26.0, 28.0, 30.0, 40.0, 50.0, 60.0]

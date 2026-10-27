@@ -1,0 +1,14 @@
+# Uniform planar smectic: flat layers along x (director along y).
+name: flat
+texture: {type: flat, x0: 1.0}
+dynamics: {peclet: 1.0, epsilon: 10.0, rotational_diffusion: 1.0}
+time:
+  dt: 1.0e-3
+  t_max: 1.0e+6      # longest MSD lag
+  t_relax: 100.0     # MSD measured after relaxation; RMSD measured from t = 0
+particles: {n: 5000, seed: 20260101, initial_position: [0.0, 0.0], initial_orientation: uniform}
+output: {n_points: 2000, traj_particles: 1, traj_frames: 10000, traj_stride: 1, directory: "data/{texture}"}
+run: {engine: auto}
+sweep:
+  dynamics.peclet: [1.0]
+  dynamics.epsilon: [0.0, 2.0, 4.0, 6.0, 8.0, 10.0, 12.0, 14.0, 16.0, 18.0, 20.0, 22.0, 24.0, 26.0, 28.0, 30.0]

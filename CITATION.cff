@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper and this repository."
+title: "smectic-transport: model code for 'Geometry-controlled active transport in smectic textures'"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/yhonyar/smectic-active-matter"
+authors:
+  - family-names: Arce
+    given-names: Yhony M.
+    affiliation: "IFT-UNESP, Brazil"
