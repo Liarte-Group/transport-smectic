@@ -2,21 +2,18 @@
 
 This work was supported by the following projects of the São Paulo Research Foundation (FAPESP):
 
-- FAPESP Project #2021/34567-8  
 - FAPESP Project #2021/14285-3
 - FAPESP Project #2022/23456-7 
-- FAPESP Project #2023/14815-8
-- FAPESP Project #2023/12345-6 
+- FAPESP Project #2022/15453-0
+- FAPESP Project #2023/12490-4
+- FAPESP Project #2024/23876-3
 
-We also acknowledge support from **ICTP-SAIFR**, which is supported by FAPESP Grant #2019/12345-0.
-
----
-
-**Prof. Hartmut Löwen**. acknowledges support from the German Research Foundation (DFG) within the project LO418/29-1.
+We also acknowledge support from **ICTP-SAIFR**, which is supported by FAPESP Grant #2021/14335-0.
+We also thanks to Brazilian National Council for Scientific and Technological Development (CNPq).
 
 ---
 
-We thank **Prof. André P. Vieira** for providing continuous access to GPU cluster resources essential for the development, testing, and large-scale execution of the simulations.
+**Prof. Hartmut Löwen**. acknowledges support from the German Research Foundation (DFG) within the project 572589640.
 
 ---
 
